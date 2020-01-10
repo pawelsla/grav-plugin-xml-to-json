@@ -19,8 +19,8 @@ Before configuring this plugin, you should copy the `user/plugins/xml-to-json/xm
 Here is the default configuration and an explanation of available options:
 
 | Variable | Default | Options         | Note                    |
-| --------:| -------:| -------:        | ----:                   |
-| enabled  | true    |`true` or `false |                         |
+| --------:| -------:| -------:        | :----                   |
+| enabled  | true    |`true` or `false`|                         |
 | query    |         | string          | your API's search query |
 | key      |         | string          | your API's auth key     |
 | url      |         | string          | your API's url          |  
