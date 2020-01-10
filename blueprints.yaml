@@ -1,0 +1,39 @@
+name: Xml To Json
+version: 0.1.0
+description: Plugin allows to get data [D[D[D[D[D[D[D[D[D[D[C[3~[3~[3~[3~[C[D[3~[C[Cload[3~   [D[Ddata from xml file and transfer it to JSON object.[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Cin[2~to[2~J[D  [DJSON object.
+icon: plug
+author:
+  name: Pawel Slabuszewski
+  email: pslabuszewski@yahoo.com
+homepage: https://github.com/pawelsla/grav-plugin-xml-to-json
+demo: http://demo.yoursite.com
+keywords: grav, plugin, etc
+bugs: https://github.com/pawelsla/grav-plugin-xml-to-json/issues
+docs: https://github.com/pawelsla/grav-plugin-xml-to-json/blob/develop/README.md
+license: MIT
+
+form:
+  validation: strict
+  fields:
+    enabled:
+      type: toggle
+      label: PLUGIN_ADMIN.PLUGIN_STATUS
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+    query:
+      type: text
+      label: query
+      help: PLUGIN_XML_TO_JSON.query_HELP
+    key:
+      type: text
+      label: key
+      help: PLUGIN_XML_TO_JSON.key_HELP
+    url:
+      type: text
+      label: url
+      help: PLUGIN_XML_TO_JSON.url_HELP
