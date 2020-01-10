@@ -31,7 +31,8 @@ Note that if you use the Admin Plugin, a file with your configuration named xml-
 
 You can use this plugin to get XML data when is authorized with `apiKey` and  parametrized with `query` also, so path to XML data file is constructed like this, i.e. `"YOUR_API_URL?key=YOUR_KEY&q=QUERY"`syntax. If it has different syntax you must change `$path` variable definition in `onTwigPageVariables()` function from **xml-to-json.php**. 
 
-If you want to use this plugin in Twig files, you should create in this files ```
+If you want to use this plugin in Twig files, you should create in this files 
+```
 {% block javascripts %}
 <script>
 {% set JSON = api %}; // set access to your data transfer
@@ -42,7 +43,8 @@ In this place, you can create array from your API's request response using Array
 
 ...#}
 </script>
-{% endblock %}```
+{% endblock %}
+```
 
 ### Testing
 This plugin was testing with [Goodreads](https://www.goodreads.com/api) API.
