@@ -4,7 +4,7 @@ The **Xml To Json** Plugin is an extension for [Grav CMS](http://github.com/getg
 ## Installation
 ### Manual Installation
 
-To install the plugin manually, download the zip-version of this repository and unzip it under `/your/site/grav/user/plugins`. Then rename the folder to `xml-to-json`. You can find these files on [GitHub](https://github.com/pawelsla/grav-plugin-xml-to-json) or via [GetGrav.org](http://getgrav.org/downloads/plugins#extras).
+To install the plugin manually, download the zip-version of this repository and unzip it under `/your/site/grav/user/plugins`. Then rename the folder to `xml-to-json`. You can find these files on [GitHub](https://github.com/pawelsla/grav-plugin-xml-to-json).
 
 You should now have all the plugin files under
 
